@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "document": "GER-3620-P.pdf",
+    "total_questions": 5,
+    "evaluated_at": "2026-10-23T10:45:03Z"
+  },
+  "results": [
+    {
+      "question_id": "Q1",
+      "question": "What are the three main types of inspection?",
+      "answer": "The three main types of maintenance inspections are standby inspections, running inspections, and disassembly inspections. Standby inspections are performed during off-peak periods when the unit is not operating; running inspections monitor key operating parameters while the unit is running; and disassembly inspections require opening the turbine for internal component evaluation (progressing through combustion inspection, hot gas path inspection, and major inspection).",
+      "is_supported": true,
+      "reference": "GER-3620-P.pdf, PDF page 25 (printed page 21), Section Maintenance Inspections",
+      "pdf_page": 25,
+      "printed_page": "21",
+      "section": "Maintenance Inspections",
+      "evidence": "Heavy-Duty Gas Turbine Operating and Maintenance Considerations 21 Maintenance Inspections Maintenance inspection types may be broadly classified  as standby, running, and disassembly inspections. The  standby inspection is performed during off-peak periods  when the unit is not",
+      "formatted_output": "Answer: The three main types of maintenance inspections are standby inspections, running inspections, and disassembly inspections. Standby inspections are performed during off-peak periods when the unit is not operating; running inspections monitor key operating parameters while the unit is running; and disassembly inspections require opening the turbine for internal component evaluation (progressing through combustion inspection, hot gas path inspection, and major inspection).\n\nReference: GER-3620-P.pdf, PDF page 25 (printed page 21), Section Maintenance Inspections.\n\nEvidence: \"Heavy-Duty Gas Turbine Operating and Maintenance Considerations 21 Maintenance Inspections Maintenance inspection types may be broadly classified as standby, running, and disassembly inspections. The standby inspection is performed during off-peak periods when the unit is not ope...\"",
+      "retrieval_distance": 0.5245149731636047,
+      "retrieval_similarity": 0.47548502683639526,
+      "validation_reason": "Passages contain valid, verifiable documentary evidence.",
+      "elapsed_seconds": 0.177
+    },
+    {
+      "question_id": "Q2",
+      "question": "What does a maintenance factor of two mean?",
+      "answer": "A maintenance factor of two indicates a maintenance interval that is half of the baseline interval, meaning maintenance is required twice as frequently due to operating conditions that differ from baseline.",
+      "is_supported": true,
+      "reference": "GER-3620-P.pdf, PDF page 9 (printed page 5), Section Starts and Hours Criteria",
+      "pdf_page": 9,
+      "printed_page": "5",
+      "section": "Starts and Hours Criteria",
+      "evidence": "Heavy-Duty Gas Turbine Operating and Maintenance Considerations 5 For operation that differs from the baseline, maintenance  factors (MF) are established to quantify the effect on  component lives and provide the increased frequency of  maintenance required. For example, a mainte",
+      "formatted_output": "Answer: A maintenance factor of two indicates a maintenance interval that is half of the baseline interval, meaning maintenance is required twice as frequently due to operating conditions that differ from baseline.\n\nReference: GER-3620-P.pdf, PDF page 9 (printed page 5), Section Starts and Hours Criteria.\n\nEvidence: \"Heavy-Duty Gas Turbine Operating and Maintenance Considerations 5 For operation that differs from the baseline, maintenance factors (MF) are established to quantify the effect on component lives and provide the increased frequency of maintenance required. For example, a maintenan...\"",
+      "retrieval_distance": 0.5296862125396729,
+      "retrieval_similarity": 0.47031378746032715,
+      "validation_reason": "Passages contain valid, verifiable documentary evidence.",
+      "elapsed_seconds": 0.014
+    },
+    {
+      "question_id": "Q3",
+      "question": "What is the purchase price of this gas turbine?",
+      "answer": "Not found",
+      "is_supported": false,
+      "reference": null,
+      "pdf_page": null,
+      "printed_page": null,
+      "section": null,
+      "evidence": null,
+      "formatted_output": "Not found",
+      "retrieval_distance": 0.5712157487869263,
+      "retrieval_similarity": 0.42878425121307373,
+      "validation_reason": "The document discusses maintenance and repair costs, but does not provide turbine purchase prices.",
+      "elapsed_seconds": 0.013
+    },
+    {
+      "question_id": "Q4",
+      "question": "What is the melting point of titanium?",
+      "answer": "Not found",
+      "is_supported": false,
+      "reference": null,
+      "pdf_page": null,
+      "printed_page": null,
+      "section": null,
+      "evidence": null,
+      "formatted_output": "Not found",
+      "retrieval_distance": 0.7450739741325378,
+      "retrieval_similarity": 0.25492602586746216,
+      "validation_reason": "Retrieval distance 0.7451 exceeds threshold 0.5500 (cosine similarity 0.2549 is too low).",
+      "elapsed_seconds": 0.012
+    },
+    {
+      "question_id": "Q5",
+      "question": "What is the recommended combustion-inspection interval in hours?",
+      "answer": "The recommended combustion-inspection interval in hours varies by turbine model and combustion configuration under baseline operating conditions (base load, natural gas fuel, dry / no water or steam injection) as defined in Figure 36:\n- 6B.03: 12,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 7E.03: 8,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 9E.03: 8,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 9E.04: 32,000 hours (Non-DLN) / 32,000 hours (DLN)\n- 6F.01: 32,000 hours (DLN)\n- 6F.03: 8,000 hours (Non-DLN) / 24,000 hours (DLN)\n- 7F.03: 24,000 hours (DLN)\n- 7F.04 / 7FB.04: 32,000 hours (DLN)\n- 7F.05: 24,000 hours (DLN)\n- 9F.03: 24,000 hours (DLN)\n- 9F.04: 32,000 hours (DLN)\n- 9F.05: 12,000 hours (DLN)\n- 7HA.01 / 7HA.02 / 9HA.01 / 9HA.02: 25,000 hours (DLN)\nNote: These represent baseline factored hours and can be reduced by factors such as fuel type, peak load operation, trips, and water/steam injection.",
+      "is_supported": true,
+      "reference": "GER-3620-P.pdf, PDF page 36 (printed page 32), Section Combustion Inspection Interval",
+      "pdf_page": 36,
+      "printed_page": "32",
+      "section": "Combustion Inspection Interval",
+      "evidence": "hours considers the effects of fuel type, load setting, and  steam/water injection. Maintenance factors greater than  one reduce recommended combustion inspection intervals  from those shown in Figure 36 representing baseline  operating conditions. To obtain a recommended inspect",
+      "formatted_output": "Answer: The recommended combustion-inspection interval in hours varies by turbine model and combustion configuration under baseline operating conditions (base load, natural gas fuel, dry / no water or steam injection) as defined in Figure 36:\n- 6B.03: 12,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 7E.03: 8,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 9E.03: 8,000 hours (Non-DLN) / 12,000 hours (DLN)\n- 9E.04: 32,000 hours (Non-DLN) / 32,000 hours (DLN)\n- 6F.01: 32,000 hours (DLN)\n- 6F.03: 8,000 hours (Non-DLN) / 24,000 hours (DLN)\n- 7F.03: 24,000 hours (DLN)\n- 7F.04 / 7FB.04: 32,000 hours (DLN)\n- 7F.05: 24,000 hours (DLN)\n- 9F.03: 24,000 hours (DLN)\n- 9F.04: 32,000 hours (DLN)\n- 9F.05: 12,000 hours (DLN)\n- 7HA.01 / 7HA.02 / 9HA.01 / 9HA.02: 25,000 hours (DLN)\nNote: These represent baseline factored hours and can be reduced by factors such as fuel type, peak load operation, trips, and water/steam injection.\n\nReference: GER-3620-P.pdf, PDF page 36 (printed page 32), Section Combustion Inspection Interval.\n\nEvidence: \"hours considers the effects of fuel type, load setting, and steam/water injection. Maintenance factors greater than one reduce recommended combustion inspection intervals from those shown in Figure 36 representing baseline operating conditions. To obtain a recommended inspection...\"",
+      "retrieval_distance": 0.27771782875061035,
+      "retrieval_similarity": 0.7222821712493896,
+      "validation_reason": "Passages contain valid, verifiable documentary evidence.",
+      "elapsed_seconds": 0.013
+    }
+  ]
+}

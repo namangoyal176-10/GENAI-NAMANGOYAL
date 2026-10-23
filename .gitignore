@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Generated ChromaDB data (keep directory structure via .gitkeep)
+chroma_db/*
+!chroma_db/.gitkeep
+
+# Optional: Do not commit heavy source PDF if restricted
+# data/GER-3620-P.pdf
